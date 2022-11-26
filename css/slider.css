@@ -1,0 +1,35 @@
+body {
+  background-color: darkseagreen;
+  font-family: 'Gloria Hallelujah', cursive;
+  text-align: center;
+}
+
+.container {
+  width: 1300px;
+}
+
+.slider-img {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.slider-title {
+  font-family: 'Rubik', sans-serif;
+}
+.slick-prev {
+  z-index: 10;
+}
+.slick-prev::before {
+  content: url(../images/slider/pumpkin.png);
+  z-index: 5;
+  position: absolute;
+  left: 200px;
+  top: -20px;
+}
+
+.slick-next::before {
+  content: url(../images/slider/pumpkin.png);
+  position: absolute;
+  right: 200px;
+  top: -20px;
+}
